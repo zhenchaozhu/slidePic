@@ -1,0 +1,99 @@
+/* CSS Document */
+
+body{margin:0 auto;padding:0;background:url(../images/bgtop.jpg) repeat-x #FFF;color:#666;font:12px "\5FAE\8F6F\96C5\9ED1",Helvetica;text-align:center;}
+body > div{margin-right:auto;margin-left:auto;text-align:center; }
+form,ul,ol,li,span,p,img{margin:0;padding:0; list-style:none;}
+h1,h2,h3,h4,h5,h6{margin:0;padding:0;font-size:12px;font-weight:normal;}
+ul,ol,li{list-style:none}
+input,textarea{font-size:12px}
+
+/* 文字颜色 */
+.red,.red a {color:#FE1200;}				         /* 红色 */
+.black,.black a {color:#000;}				         /* 黑色 */
+.blue1,.blue1 a {color:#0d79bb;}				     /* 蓝色 */
+.green,.green a {color:#0d8424;}				     /* 灰色 */
+.gray1,.gray1 a {color:#555;}	
+.gray2,.gray2 a {color:#666;}	
+
+.fl{ float:left}
+.fr{ float:right}
+
+/*清除浮动 */
+.clear:after{content:'.';clear:both;display:block;height:0;visibility:hidden;line-height:0}
+.clear{zoom:1} 
+
+.wid960{ width:960px; margin-left:auto; margin-right:auto; display:block; clear:both}
+.top{ height:100px;}
+.top .logo{ width:260px; text-align:center;padding-top:16px; float:left;}
+.top .menu{width:600px; float:left; margin-left:60px;}
+.top .menu li{ float:left; width:126px; height:100px; line-height:100px; font-size:16px; text-align:center;}
+.top .menu .btnon{ background:url(../images/bgtopon.jpg) repeat-x; color:#fff;}
+.top .menu .btnoff{ background:url(../images/bgtop.jpg) repeat-x;color:#000; cursor:pointer;}
+.top .menu .btnoff:hover{background:url(../images/bgtophover.jpg) repeat-x;color:#000; cursor:pointer;}
+.secmenu{ height:38px; text-align:right; margin-top:5px;}
+.secmenu ul{ width:210px; float:right;}
+.secmenu li{ text-align:center; width:60px; font-size:14px;color:#3783c6; float:left}
+.secmenu li a{ color:#333; text-decoration:none;}
+.mobile{ height:590px; float:left; width:275px;}
+.mobilebg1{ background:url(../images/mobile1.jpg) no-repeat; width:275px; height:119px;}
+.mobilebg2{ background:url(../images/mobile2.jpg) no-repeat; width:275px; height:336px;}
+.mobilebg3{ background:url(../images/mobile3.jpg) no-repeat; width:275px; height:140px;}
+.mright{ width:685px; float:left;}
+.banner{ width:685px; height:261px;}
+.number{ width:685px; height:25px; font:none;}
+.number ul{ width:120px; margin-left:auto; margin-right:auto;}
+.number li{ width:22px; float:left;}
+.box{ width:685px;}
+.method{ width:292px; float:left; padding-left:20px;}
+.method li{ height:81px; margin-top:10px!important;margin-top:12px; padding-bottom:6px!important;padding-bottom:0px}
+.news{ width:350px; float:right;}
+.newstitle{ background:url(../images/titlebg1.jpg) repeat-x; height:20px; font-size:16px; color:#000; width:348px; display:block; clear:both}
+.newstitle p{ background:#fff; width:80px; float:left}
+.text{ background:#fff; width:80px;}
+.newslist{ line-height:27px; width:328px; padding-left:20px; padding-top:10px;}
+.newslist li{ padding-left:16px; width:308px; overflow:hidden; background:url(../images/arrow.gif) no-repeat left center; text-align:left; font-size:14px;}
+.newslist a,.more a{ color:#333; text-decoration:none;}
+.newslist a:hover,.more a:hover{ color:#3783c6; }
+.more{ text-align:right; background:none; margin-top:7px; margin-right:5px; }
+.aside{ height:75px; border-top:4px solid #ebebeb; width:100%; margin-top:17px;}
+.aside .left{ width:90px; background:#f5f5f5; font-size:16px; text-align:center;padding-top:10px; float:left; height:65px;}
+.aside .right{ width:250px; float:left; padding-top:10px; line-height:23px; font-size:14px;}
+.title{ height:21px; width:960px; margin-left:auto; margin-right:auto; margin-top:22px; margin-bottom:16px; background:url(../images/bgtitle2.jpg) repeat-x; display:block; clear:both}
+.title p{ width:80px; margin-left:15px; background:#fff; color:#000; font-size:16px; float:left}
+.area{ width:138px; float:left; margin-left:10px; margin-right:10px;}
+.area p{  font-size:12px; text-align:center; width:136px;}
+.area h3{ color:#000; font-size:16px; text-align:center; margin-bottom:4px;}
+.chp{ width:450px; border-right:1px dashed #d0cdce; border-bottom:1px dashed #d0cdce; height:280px; float:left; background:url(../images/chanpbg.jpg) no-repeat left 15px; padding-left:20px; padding-bottom:6px; padding-top:15px;}
+.chpl{ width:250px; float:left; text-align:left; }
+.chpl .top{ height:110px; width:260px;}
+.chpl .icon{ width:84px; height:84px; float:left; margin-top:18px;}
+.chpl .hot{ width:160px; float:left;}.chpl .top .hot img{ margin-left:10px;}
+.chpl h3{ font-size:16px; color:#000; width:220px; display:block; clear:both}
+.chpl p{ color:#707070; font-siz:14px;width:220px; line-height:23px; margin-top:10px;}
+.chpr{ width:170px; float:left; margin-top:20px;}
+.link{ }
+.link li{ height:130px; float:left; width:130px; text-align:center;}
+.pageup{ border-top:4px solid #ebebeb; height:34px; line-height:34px; color:#666; text-align:left; font-size:14px;}
+.pageup span{ margin-left:4px; margin-right:4px;}
+.pageup a{ color:#333; text-decoration:none;}
+.newslists{width:800px; margin-left:auto; margin-right:auto; padding-top:16px;}
+.newslists li{ background:url(../images/newsbg.jpg) repeat-x; height:30px; width:100%}
+.newslists li a{ color:#333; text-decoration:none;}
+.newslists li a:hover{ color:#3783c6;}
+.newslists .lnleft{ float:left; background:#fff; font-size:14px; padding-right:5px;}
+.newslists .lnright{ float:right; background:#fff; font-size:12px; padding-left:5px; color:#999}
+.page{ width:200px; margin-left:auto; margin-right:auto}
+.page li{ float:left; margin-left:10px; margin-right:10px;}
+.page .pon{  color:#3783c6;}
+.page .poff{color:#666;}
+.newstit{ padding-top:20px;}
+.newstit h3{ font-size:26px; text-align:center; color:#000; padding-bottom:8px;}
+.newstit p{ font-size:12px; text-align:center; color:#999;}
+.newstit .content{ background:#fafafa; padding:10px; border-top:1px dashed #cfcdcc; width:800px; margin-left:auto; margin-right:auto; margin-top:10px;}
+.newstit .content p{ margin-top:10px; text-indent:24px;text-align:left; font-size:14px; color:#000; line-height:26px;}
+.newstit .content img{ float:right; padding:4px;}
+
+.iframelayout{overflow: hidden; width: 95%; height: 336px; text-indent: 20px;}
+.slide{float:left;}
+.mright, .banner{overflow:hidden;}
+.slide img{width:685px; height:261px;}

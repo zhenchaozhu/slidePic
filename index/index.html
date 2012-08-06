@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> slidePic </title>
+<link href="../css/m.css" rel="stylesheet" type="text/css"> 
+</head>
+<body>
+	<div class="contents">
+		<div class="wid960 clear">
+			
+			<div class="mright">
+				<div class="banner" style="width: 2055px; margin-left: -1370px; ">
+					<div class="slide">
+						<img src="../images/banner.jpg">
+					</div>
+					<div class="slide">
+						<img src="../images/banner.jpg">
+					</div>
+					<div class="slide">
+						<img src="../images/banner.jpg">
+					</div>
+				</div>
+				<div class="number">
+					<ul>
+						<li><img src="../images/dot1.jpg"></li>
+						<li><img src="../images/dot2.jpg"></li>
+						<li><img src="../images/dot2.jpg"></li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="../javascript/sea.js"></script>
+	<script type="text/javascript">
+		seajs.config({
+			alias: {
+				'jquery': '../javascript/jquery-min.js',
+				'scroll': '../javascript/scroll'
+			}
+		})
+		seajs.use(['scroll', 'jquery'], function() {
+			$(document).ready(function() {
+				var slides = $(".banner .slide");
+				var point = $(".number ul li");
+				//图片滑动
+				new Scroll({
+					speed: 450,  //滑动速度
+		      		timer: 3,    //自动滑动时间间隔
+		      		slides: slides,  
+		      		point: point,
+		      		auto: true,  //是否自动滑动
+		      		clickStopauto: true //鼠标点击是否结束滑动
+	 			})
+			});
+		})
+	</script>
+</body>
+</html>
